@@ -4,7 +4,7 @@ import json
 import tornado.ioloop
 import tornado.web
 
-alpr = Alpr("eu", "/etc/openalpr/openalpr.conf", "/usr/share/openalpr/runtime_data")
+alpr = Alpr("us", "/etc/openalpr/openalpr.conf", "/usr/share/openalpr/runtime_data")
 alpr.set_top_n(20)
 
 
